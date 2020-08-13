@@ -1,0 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    background-color: #1e272e;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview {
+    margin-top: -5px;
+
+    height: 5000px;
+    width: 700px;
+    overflow: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+
+    margin-left: 5px;
+}
+
+#copy {
+    background-color: #1e3799;
+}
+
+#clear {
+    background-color: #eb2f06;
+}
+
+#clearStorage {
+    background-color: #1e272e;
+}
+
+textarea {
+    padding: 10px;
+}
